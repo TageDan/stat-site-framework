@@ -5,7 +5,7 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
-name =  "stat-site-framework"          # The name of the target.
+name =  "stat_site_framework"          # The name of the target.
 path = "src/lib.rs"    # The source file of the target.
 edition = "2024"       # The edition of the target.
 crate-type = ["lib"]   # The crate types to generate.
