@@ -1,7 +1,12 @@
 use std::{
     ffi::OsStr,
+    fs,
     path::{Path, PathBuf},
 };
+
+use serde::{de::DeserializeOwned, Serialize};
+
+use crate::render::Render;
 
 pub struct MarkdownSiteGenerator {
     content: PathBuf,
