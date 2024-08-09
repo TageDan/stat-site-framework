@@ -5,10 +5,9 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
-name =  "stat_site_framework"          # The name of the target.
-path = "src/lib.rs"    # The source file of the target.
-edition = "2021"       # The edition of the target.
-crate-type = ["lib"]   # The crate types to generate.
+name =  "stat_site_framework"          
+path = "src/lib.rs"    
+edition = "2021"       
 
 [dependencies]
 pulldown-cmark = "0.11.0"
